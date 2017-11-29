@@ -19,7 +19,7 @@ from flask import request
 from flask import session
 from flask import url_for
 
-app = Flask(__name__, static_folder='static', static_url_path='')
+app = Flask(__name__, static_folder='static', static_url_path='92.53.104.164')
 
 db = None
 lang = None
@@ -303,6 +303,6 @@ if __name__ == '__main__':
             PRIMARY KEY (task_id, user_id))''')
 
     # Start web server
-    app.run(host=config['92.53.104.164'], port=config['22'], 
+    app.run(host=config['host'], port=config['host'], 
         debug=config['debug'], threaded=True)
 
