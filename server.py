@@ -303,6 +303,6 @@ if __name__ == '__main__':
             PRIMARY KEY (task_id, user_id))''')
 
     # Start web server
-    app.run(host=config['host'], port=config['port'], 
+    app.run(host=config['92.53.104.164'], port=config['22'], 
         debug=config['debug'], threaded=True)
 
