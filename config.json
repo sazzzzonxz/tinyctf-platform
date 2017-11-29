@@ -4,7 +4,7 @@
     "host": "92.53.104.164 ",
     "port": 22,
     
-    "db": "sqlite:///ctf.db",
+    "db": "sqlite:///saz-ctf.com",
     
     "language_file": "lang.json",
     "language": "english",
