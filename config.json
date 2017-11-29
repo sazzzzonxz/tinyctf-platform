@@ -1,7 +1,7 @@
 {
     "secret_key": "PLEASE_CHANGE_ME",
     
-    "host": "0.0.0.0",
+    "host": "92.53.104.164 ",
     "port": 8888,
     
     "db": "sqlite:///ctf.db",
