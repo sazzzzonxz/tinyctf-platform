@@ -1,7 +1,7 @@
 {
     "secret_key": "PLEASE_CHANGE_ME",
     
-    "host": "92.53.104.164 ",
+    "host": "sazonov.com",
     "port": 22,
     
     "db": "sqlite:///saz-ctf.com",
