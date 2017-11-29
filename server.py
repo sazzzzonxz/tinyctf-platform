@@ -19,7 +19,7 @@ from flask import request
 from flask import session
 from flask import url_for
 
-app = Flask(__name__, static_folder='static', static_url_path='92.53.104.164')
+app = Flask(__name__, static_folder='static', static_url_path='')
 
 db = None
 lang = None
